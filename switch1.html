@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <p id="demo"></p>
+    <script>
+    
+        let text;
+        let name = prompt("student name:");
+        switch(name) {
+            case "Mark":
+                text = "Mark is stupid in math, but in Paint he is the best";
+                break;
+            case "John":
+                text = "John's math knowledge is middle, but he like Chemistry";
+                break;
+            case "Clara":
+                text = "Clara know all subject very well";
+                break;
+            case "Mia":
+                text = "Mia like to copy from her friend Clara";
+                break;
+            default:
+                text = "There is no such student with this name";
+                break;
+            }
+                document.getElementById("demo").innerHTML = text
+           
+                
+            
+    </script>
+    
+</body>
+</html>

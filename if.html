@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h2>Comparison Result:</h2>
+    <p id="demo"></p>
+    <script>
+        let x = Number(prompt("x:"));
+        let y = Number(prompt("Y:"));
+
+        let answerText;
+
+        if (x > y) {
+            answerText = x + "is greater then "  + y;
+        }else if (x < y ) {
+            answerText = y + "is greater then" + x;
+        }else {
+            answerText = x + "equal to" + y;
+        }
+
+        document.getElementById("demo").innerText = answerText;
+        
+        alert(answerText);
+    </script>
+
+</body>
+</html>
