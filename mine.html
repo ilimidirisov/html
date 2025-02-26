@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var x1 = prompt("Enter a first number:");
+        var x2 = prompt("Enter a second number: ");
+        let operation = prompt("Enter an operation");
+
+        if(isNaN(x1)) 
+        alert("enter a number");
+        if(isNaN(x2)) 
+        alert("enter a number");
+        
+
+
+        const mark = operation;
+        switch (mark) {
+        case '+':
+        console.log(x1 + x2);
+        break;
+        case '-':
+        console.log(x1 - x2);
+        break;
+        case '*':
+        console.log(x1 * x2);
+        break;
+        case '/':
+        console.log(x1 / x2);
+        if(x1 == 0)
+        alert("first number can't be zero");
+        break;
+        default:
+        console.log('we have no such mark');
+
+}
+
+    </script>
+</body>
+</html>
